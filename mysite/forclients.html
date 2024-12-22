@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="logo.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<title>Регистрация заказа</title>
+</head>
+<body>
+	<header class="head">
+		<a href="main.html">
+			<div class="headimg">
+				<img id="head-img" src="header_horis.jpg">
+				<div class="logo">
+					<img id="logo" src="logo.ico">
+				</div>
+			</div>
+		</a>
+	</header>
+	<main>
+		<h1 class="frase">Давайте примем ваш заказ!</h1>
+		<form method="post" action="#">
+			<h2 class="reg">Регистрация</h2>
+			<div class="info">
+				<label class="info-label">Ваше имя</label>
+				<input class="info-input" type="text" name="firstname">
+			</div>
+			<div class="info">
+				<label class="info-label">Ваша фамилия</label>
+				<input class="info-input" type="text" name="lastname">
+			</div>
+			<div class="info">
+				<label class="info-label">E-mail</label>
+				<input class="info-input" type="email" name="email">
+			</div>
+			<div class="info">
+				<label class="info-label">Тел</label>
+				<input class="info-input" type="tel" name="phone">
+			</div>
+			<div class="info">
+				<label class="info-label">Тип здания</label>
+				<div class="build-type">
+					<input class="build" type="radio" name="build-type">
+					<label class="build-label">Частное</label>
+				</div>
+				<div class="build-type">
+					<input class="build" type="radio" name="build-type">
+					<label class="build-label">Жилое</label>
+				</div>
+				<div class="build-type">
+					<input class="build" type="radio" name="build-type">
+					<label class="build-label">Коммерческое</label>
+				</div>
+			</div>		
+			<button class="b-reg">Подать заказ</button>
+		</form>
+	</main>
+</body>
+</html>

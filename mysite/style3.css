@@ -1,0 +1,65 @@
+h1.frase, h2.reg {
+	text-align: center;
+	font-size: 36px;
+}
+h2.reg {
+	margin-top: 10px;
+	padding: 5px;
+	color: white;
+	border-radius: 15px;
+	border: 3px solid slateblue;
+}
+form {
+	width: 300px;
+	margin: 50px auto;
+	padding: 5px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: none;
+	border-radius: 15px;
+	background-color: darkslateblue;
+}
+.info {
+	margin: 5px;
+	padding: 5px;
+}
+label.info-label {
+	width: 170px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+}
+input.info-input {
+	margin-top: 5px;
+	padding: 3px;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+}
+input.info-input:focus {
+	outline: none;
+}
+.build-type {
+	display: flex;
+	flex-direction: row;
+}
+label.build-label {
+	font-size: 18px;
+	color: white;
+}
+.b-reg {
+	margin: 20px 10px;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 15px;
+	border: none;
+	background-color: slateblue;
+	transition: 0.7s;
+}
+.b-reg:hover {
+	font-size: 22px;
+	transition: 0.7s;
+}
